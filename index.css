@@ -1,0 +1,127 @@
+body
+{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul 
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+
+}
+
+h2 {
+    color: pink;
+}
+
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: palevioletred;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilos da navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos das seções */
+section {
+    padding: 2rem;
+}
+
+/* Estilos dos projetos e formação */
+.projeto, .formacao-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.custom-link {
+    color: gray;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Estilos dos ícones sociais */
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons a:hover .icon {
+    opacity: 0.7;
+}
+
